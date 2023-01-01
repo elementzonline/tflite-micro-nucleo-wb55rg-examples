@@ -1,0 +1,2 @@
+../tensorflow/tensorflow/lite/micro/nucleo-wb55rg/debug_log.cc:46:6:void RegisterDebugLogCallback(void (*)(const char*))	16	static
+../tensorflow/tensorflow/lite/micro/nucleo-wb55rg/debug_log.cc:50:6:void DebugLog(const char*)	16	static

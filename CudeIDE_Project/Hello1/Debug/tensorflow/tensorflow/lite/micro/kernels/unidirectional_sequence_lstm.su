@@ -1,0 +1,26 @@
+/opt/st/stm32cubeide_1.11.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.100.202210260954/tools/arm-none-eabi/include/c++/10.3.1/cmath:388:3:constexpr float std::pow(float, float)	16	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:35:3:tflite::RuntimeShape::RuntimeShape()	16	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:45:3:tflite::RuntimeShape::RuntimeShape(int, const int32_t*)	24	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:56:3:tflite::RuntimeShape::~RuntimeShape()	16	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:58:11:int32_t tflite::RuntimeShape::DimensionsCount() const	16	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:59:11:int32_t tflite::RuntimeShape::Dims(int) const	16	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:74:12:int32_t* tflite::RuntimeShape::DimsData()	16	static
+../tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:78:8:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	32	static
+../tensorflow/tensorflow/lite/kernels/internal/tensor_ctypes.h:34:21:tflite::RuntimeShape tflite::GetTensorShape(const TfLiteTensor*)	32	static
+/opt/st/stm32cubeide_1.11.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.100.202210260954/tools/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v7e-m+fp/hard/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+../tensorflow/tensorflow/lite/kernels/kernel_util.h:168:16:int64_t tflite::NumElements(const TfLiteIntArray*)	40	static
+../tensorflow/tensorflow/lite/kernels/kernel_util.h:176:16:int64_t tflite::NumElements(const TfLiteTensor*)	16	static
+../tensorflow/tensorflow/lite/micro/micro_context.h:120:22:tflite::MicroContext* tflite::GetMicroContext(const TfLiteContext*)	16	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:54:14:TfLiteStatus tflite::{anonymous}::PopulateQuantizedLstmParams8x8_16(TfLiteContext*, TfLiteNode*, tflite::IntegerLstmParameter*)	416	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:501:7:void* tflite::{anonymous}::UnidirectionalSequenceLstmInit(TfLiteContext*, const char*, size_t)	24	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:509:14:TfLiteStatus tflite::{anonymous}::CheckInputTensorDimensions(TfLiteContext*, TfLiteNode*, int, int, int, bool, bool)	144	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:817:14:TfLiteStatus tflite::{anonymous}::PrecomputeZeroPointTimesWeightWithBias(TfLiteContext*, int32_t, const TfLiteTensor*, const TfLiteTensor*, int32_t**)	96	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:847:14:TfLiteStatus tflite::{anonymous}::PopulatePrecomputedZPTimesWeightsWithBias(TfLiteContext*, tflite::{anonymous}::UnidirectionalSequenceLstmOpData*, TfLiteNode*)	152	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:1038:14:TfLiteStatus tflite::{anonymous}::UnidirectionalSequenceLstmPrepare(TfLiteContext*, TfLiteNode*)	160	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:1215:14:TfLiteStatus tflite::{anonymous}::UnidirectionalSequenceLstmEval(TfLiteContext*, TfLiteNode*)	304	static
+../tensorflow/tensorflow/lite/micro/kernels/unidirectional_sequence_lstm.cc:1381:20:TfLiteRegistration tflite::Register_UNIDIRECTIONAL_SEQUENCE_LSTM()	24	static
+/opt/st/stm32cubeide_1.11.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.100.202210260954/tools/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+/opt/st/stm32cubeide_1.11.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.100.202210260954/tools/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h:230:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = float]	16	static
+/opt/st/stm32cubeide_1.11.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.100.202210260954/tools/arm-none-eabi/include/c++/10.3.1/bits/stl_algobase.h:254:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = int]	16	static
+../tensorflow/tensorflow/lite/kernels/internal/tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = long int]	16	static
+../tensorflow/tensorflow/lite/kernels/internal/tensor_ctypes.h:29:17:const T* tflite::GetTensorData(const TfLiteTensor*) [with T = signed char]	16	static
