@@ -12,7 +12,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-
+#include "main.h"
 #include "main_functions.h"
 
 #include "tensorflow/lite/micro/all_ops_resolver.h"
@@ -24,6 +24,8 @@ limitations under the License.
 #include "tensorflow/lite/micro/system_setup.h"
 #include "tensorflow/lite/schema/schema_generated.h"
 #include "tensorflow/lite/micro/nucleo-wb55rg/debug_log_callback.h"
+
+extern UART_HandleTypeDef huart1;
 
 // Globals, used for compatibility with Arduino-style sketches.
 namespace {
@@ -38,9 +40,9 @@ alignas(16) uint8_t tensor_arena[kTensorArenaSize];
 }  // namespace
 
 
-void debug_log_printf(const char* s)
+void debug_log_printf(const char* data)
 {
-	printf(s);
+	HAL_UART_Transmit (&huart1, (const uint8_t*) data, strlen (data), 10);
 }
 
 // The name of this function is important for Arduino compatibility.

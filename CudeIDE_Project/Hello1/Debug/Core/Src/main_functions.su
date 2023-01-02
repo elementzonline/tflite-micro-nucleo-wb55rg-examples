@@ -20,11 +20,11 @@
 ../tensorflow/tensorflow/lite/micro/micro_op_resolver.h:54:29:virtual const TfLiteRegistration* tflite::MicroOpResolver::FindOp(const char*, int) const	24	static
 ../tensorflow/tensorflow/lite/micro/micro_op_resolver.h:63:3:tflite::MicroOpResolver::~MicroOpResolver()	16	static
 ../tensorflow/tensorflow/lite/micro/micro_op_resolver.h:63:3:virtual tflite::MicroOpResolver::~MicroOpResolver()	16	static
-../Core/Src/main_functions.cc:41:6:void debug_log_printf(const char*)	16	static
-../Core/Src/main_functions.cc:65:33:void __tcf_0()	8	static
-../Core/Src/main_functions.cc:69:54:void __tcf_1()	8	static
-../Core/Src/main_functions.cc:47:6:void setup()	32	static
-../Core/Src/main_functions.cc:88:6:void loop()	32	static
+../Core/Src/main_functions.cc:43:6:void debug_log_printf(const char*)	16	static
+../Core/Src/main_functions.cc:67:33:void __tcf_0()	8	static
+../Core/Src/main_functions.cc:71:54:void __tcf_1()	8	static
+../Core/Src/main_functions.cc:49:6:void setup()	32	static
+../Core/Src/main_functions.cc:90:6:void loop()	32	static
 ../third_party/flatbuffers/include/flatbuffers/base.h:416:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	16	static
 ../third_party/flatbuffers/include/flatbuffers/base.h:427:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	16	static
 ../third_party/flatbuffers/include/flatbuffers/base.h:427:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	16	static
