@@ -172,5 +172,3 @@
 "./tensorflow/tensorflow/lite/micro/tflite_bridge/micro_error_reporter.o"
 "./tensorflow/tensorflow/lite/micro/tflite_bridge/op_resolver_bridge.o"
 "./tensorflow/tensorflow/lite/schema/schema_utils.o"
-"./third_party/kissfft/kiss_fft.o"
-"./third_party/kissfft/tools/kiss_fftr.o"

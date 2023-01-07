@@ -46,6 +46,4 @@ tensorflow/tensorflow/lite/micro/memory_planner \
 tensorflow/tensorflow/lite/micro/nucleo-wb55rg \
 tensorflow/tensorflow/lite/micro/tflite_bridge \
 tensorflow/tensorflow/lite/schema \
-third_party/kissfft \
-third_party/kissfft/tools \
 

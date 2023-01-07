@@ -29,58 +29,60 @@
 ../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:67:14:TfLiteStatus tflite::PrepareMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	56	static
 ../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:93:14:TfLiteStatus tflite::PrepareMeanOrSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	64	static
 ../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:127:6:void tflite::ResolveAxis(const int*, int, tflite::MeanParams*)	32	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:200:14:TfLiteStatus tflite::EvalMeanHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	200	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:278:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>	24	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:278:7:static float tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:278:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:295:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(int8_t, int8_t)>	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:295:7:static int8_t tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(int8_t, int8_t)>::_FUN(int8_t, int8_t)	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:295:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(int8_t, int8_t)>::operator int8_t (*)(int8_t, int8_t)() const	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:261:14:TfLiteStatus tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	168	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:331:7:tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>	24	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:331:7:static float tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:331:7:tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:315:14:TfLiteStatus tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	168	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:201:14:TfLiteStatus tflite::EvalMeanHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	200	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:279:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>	24	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:279:7:static float tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:279:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:296:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(int8_t, int8_t)>	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:296:7:static int8_t tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(int8_t, int8_t)>::_FUN(int8_t, int8_t)	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:296:7:tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(int8_t, int8_t)>::operator int8_t (*)(int8_t, int8_t)() const	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:262:14:TfLiteStatus tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	168	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:332:7:tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>	24	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:332:7:static float tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:332:7:tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:316:14:TfLiteStatus tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*)	168	static
 ../third_party/ruy/ruy/profiler/instrumentation.h:191:12:) [with Args = {const char*}]	16	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = int]	16	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	16	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:64:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:272:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with T = float]	136	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:217:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = float; U = float]	96	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:183:14:TfLiteStatus tflite::EvalIntegerMean(TfLiteContext*, TfLiteNode*, int, tflite::OpDataReduce*, int*, int*) [with integer_type = signed char]	48	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:183:14:TfLiteStatus tflite::EvalIntegerMean(TfLiteContext*, TfLiteNode*, int, tflite::OpDataReduce*, int*, int*) [with integer_type = short int]	48	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:184:14:TfLiteStatus tflite::EvalIntegerMean(TfLiteContext*, TfLiteNode*, int, tflite::OpDataReduce*, int*, int*) [with integer_type = signed char]	48	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:184:14:TfLiteStatus tflite::EvalIntegerMean(TfLiteContext*, TfLiteNode*, int, tflite::OpDataReduce*, int*, int*) [with integer_type = short int]	48	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:180:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = float]	64	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	16	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:64:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:180:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = signed char]	56	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:140:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = signed char]	144	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:140:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = short int]	144	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:140:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = signed char]	160	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:140:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, tflite::OpDataReduce*, bool) [with T = short int]	160	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:tflite::reference_ops::ReduceSumImpl<float, float>::<lambda(float, float)>	32	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:static float tflite::reference_ops::ReduceSumImpl<float, float>::<lambda(float, float)>::_FUN(float, float)	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:tflite::reference_ops::ReduceSumImpl<float, float>::<lambda(float, float)>::operator float (*)(float, float)() const	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:144:13:bool tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = float; Out = float]	56	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:163:14:TfLiteStatus tflite::Mean(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*, int*, int*, U*) [with T = signed char; U = long int]	104	static
-../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:163:14:TfLiteStatus tflite::Mean(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*, int*, int*, U*) [with T = short int; U = long int]	104	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:164:14:TfLiteStatus tflite::Mean(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*, int*, int*, U*) [with T = signed char; U = long int]	104	static
+../tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:164:14:TfLiteStatus tflite::Mean(TfLiteContext*, TfLiteNode*, tflite::OpDataReduce*, int*, int*, U*) [with T = short int; U = long int]	104	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:159:13:bool tflite::reference_ops::InitTensorDataForReduce(const int*, int, T, T*) [with T = float]	40	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = float; Out = float]	56	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:159:13:bool tflite::reference_ops::InitTensorDataForReduce(const int*, int, T, T*) [with T = signed char]	40	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = signed char]	56	static
-../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:378:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, float, const int*, int, T*, int32_t, float, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = signed char; U = long int]	168	static
+../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:472:13:bool tflite::reference_ops::QuantizedMeanOrSumExtraArgs(const T*, int32_t, float, const int*, int, T*, float, int32_t, int, int32_t, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = signed char; U = long int]	80	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:71:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	16	static
 ../tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:64:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	16	static
-../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:378:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, float, const int*, int, T*, int32_t, float, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = short int; U = long int]	160	static
+../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:472:13:bool tflite::reference_ops::QuantizedMeanOrSumExtraArgs(const T*, int32_t, float, const int*, int, T*, float, int32_t, int, int32_t, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = short int; U = long int]	80	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:217:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = signed char; U = long int]	96	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:217:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = short int; U = long int]	96	static
+../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:378:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, float, const int*, int, T*, int32_t, float, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = signed char; U = long int]	168	static
+../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:378:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, float, const int*, int, T*, int32_t, float, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = short int; U = long int]	160	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:tflite::reference_ops::ReduceSumImpl<signed char, long int>::<lambda(long int, signed char)>	32	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:static long int tflite::reference_ops::ReduceSumImpl<signed char, long int>::<lambda(long int, signed char)>::_FUN(long int, signed char)	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:tflite::reference_ops::ReduceSumImpl<signed char, long int>::<lambda(long int, signed char)>::operator long int (*)(long int, signed char)() const	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:144:13:bool tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = signed char; Out = long int]	56	static
-../tensorflow/tensorflow/lite/kernels/internal/cppmath.h:35:1:T tflite::TfLiteRound(T) [with T = float]	16	static
-../tensorflow/tensorflow/lite/kernels/internal/min.h:28:10:T tflite::TfLiteMin(const T&, const T&) [with T = float]	16	static
-../tensorflow/tensorflow/lite/kernels/internal/max.h:28:10:T tflite::TfLiteMax(const T&, const T&) [with T = float]	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:tflite::reference_ops::ReduceSumImpl<short int, long int>::<lambda(long int, short int)>	32	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:static long int tflite::reference_ops::ReduceSumImpl<short int, long int>::<lambda(long int, short int)>::_FUN(long int, short int)	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:tflite::reference_ops::ReduceSumImpl<short int, long int>::<lambda(long int, short int)>::operator long int (*)(long int, short int)() const	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:144:13:bool tflite::reference_ops::ReduceSumImpl(const In*, const int*, const int*, int, int, const int*, int, int*, Out*) [with In = short int; Out = long int]	56	static
+../tensorflow/tensorflow/lite/kernels/internal/cppmath.h:35:1:T tflite::TfLiteRound(T) [with T = float]	16	static
+../tensorflow/tensorflow/lite/kernels/internal/min.h:28:10:T tflite::TfLiteMin(const T&, const T&) [with T = float]	16	static
+../tensorflow/tensorflow/lite/kernels/internal/max.h:28:10:T tflite::TfLiteMax(const T&, const T&) [with T = float]	16	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = long int]	56	static
 ../tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = short int; Out = long int]	56	static

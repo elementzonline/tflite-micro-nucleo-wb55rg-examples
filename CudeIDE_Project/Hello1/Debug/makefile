@@ -9,8 +9,6 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include third_party/kissfft/tools/subdir.mk
--include third_party/kissfft/subdir.mk
 -include tensorflow/tensorflow/lite/schema/subdir.mk
 -include tensorflow/tensorflow/lite/micro/tflite_bridge/subdir.mk
 -include tensorflow/tensorflow/lite/micro/nucleo-wb55rg/subdir.mk
@@ -89,8 +87,8 @@ all: main-build
 main-build: Hello1.elf secondary-outputs
 
 # Tool invocations
-Hello1.elf Hello1.map: $(OBJS) $(USER_OBJS) /home/dhanish/STM32CubeIDE/workspace_1.11.0/Hello1/STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "Hello1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/home/dhanish/STM32CubeIDE/workspace_1.11.0/Hello1/STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Hello1.elf Hello1.map: $(OBJS) $(USER_OBJS) /mnt/Files/Github/IISU/tflite-micro-nucleo-wb55rg-examples/CudeIDE_Project/Hello1/STM32WB55RGVX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "Hello1.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"/mnt/Files/Github/IISU/tflite-micro-nucleo-wb55rg-examples/CudeIDE_Project/Hello1/STM32WB55RGVX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Hello1.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
